@@ -1,0 +1,20 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "import": "node ./eurovis/init_tests.js",
+    "usecase": "node ./eurovis/init_use_cases.js",
+    "run": "node ./eurovis/run_tests.js",
+    "extract": "node ./eurovis/extract_tests.js"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "CC BY-NC-SA 4.0",
+  "description": "",
+  "dependencies": {
+    "form-data": "^4.0.1",
+    "papaparse": "^5.4.1"
+  }
+}

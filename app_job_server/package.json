@@ -1,0 +1,14 @@
+{
+  "name": "app_job_server",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "CC BY-NC-SA 4.0",
+  "description": "",
+  "dependencies": {
+    "bull": "^4.16.4"
+  }
+}

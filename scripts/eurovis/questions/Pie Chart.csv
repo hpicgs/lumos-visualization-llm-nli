@@ -1,0 +1,61 @@
+Question_item,Instruction Prompt_Item,Model_Item,Question,Instruction Prompt,Model,Dataset,Visualization,Task,Question_Answer
+19,1,1,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v1.txt,gpt-4o,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,1,2,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v1.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,1,3,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v1.txt,o1-preview,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,1,4,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v1.txt,o1-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,2,1,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v2.txt,gpt-4o,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,2,2,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v2.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,2,3,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v2.txt,o1-preview,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,2,4,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v2.txt,o1-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,3,1,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v3.txt,gpt-4o,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,3,2,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v3.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,3,3,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v3.txt,o1-preview,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,3,4,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v3.txt,o1-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,4,1,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v4.txt,gpt-4o,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,4,2,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v4.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,4,3,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v4.txt,o1-preview,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,4,4,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v4.txt,o1-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,5,1,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v5.txt,gpt-4o,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,5,2,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v5.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,5,3,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v5.txt,o1-preview,PieChart.csv,Pie Chart,Retrieve Value,0.25
+19,5,4,About what is the global smartphone market share of Samsung?,PieChart_Prompt_v5.txt,o1-mini,PieChart.csv,Pie Chart,Retrieve Value,0.25
+20,1,1,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v1.txt,gpt-4o,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,1,2,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v1.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,1,3,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v1.txt,o1-preview,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,1,4,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v1.txt,o1-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,2,1,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v2.txt,gpt-4o,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,2,2,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v2.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,2,3,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v2.txt,o1-preview,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,2,4,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v2.txt,o1-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,3,1,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v3.txt,gpt-4o,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,3,2,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v3.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,3,3,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v3.txt,o1-preview,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,3,4,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v3.txt,o1-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,4,1,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v4.txt,gpt-4o,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,4,2,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v4.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,4,3,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v4.txt,o1-preview,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,4,4,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v4.txt,o1-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,5,1,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v5.txt,gpt-4o,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,5,2,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v5.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,5,3,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v5.txt,o1-preview,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+20,5,4,In which company is the global smartphone market share the smallest?,PieChart_Prompt_v5.txt,o1-mini,PieChart.csv,Pie Chart,Find Extremum,Oppo and Vivo
+21,1,1,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v1.txt,gpt-4o,PieChart.csv,Pie Chart,Make Comparisons,No
+21,1,2,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v1.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,1,3,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v1.txt,o1-preview,PieChart.csv,Pie Chart,Make Comparisons,No
+21,1,4,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v1.txt,o1-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,2,1,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v2.txt,gpt-4o,PieChart.csv,Pie Chart,Make Comparisons,No
+21,2,2,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v2.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,2,3,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v2.txt,o1-preview,PieChart.csv,Pie Chart,Make Comparisons,No
+21,2,4,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v2.txt,o1-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,3,1,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v3.txt,gpt-4o,PieChart.csv,Pie Chart,Make Comparisons,No
+21,3,2,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v3.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,3,3,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v3.txt,o1-preview,PieChart.csv,Pie Chart,Make Comparisons,No
+21,3,4,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v3.txt,o1-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,4,1,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v4.txt,gpt-4o,PieChart.csv,Pie Chart,Make Comparisons,No
+21,4,2,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v4.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,4,3,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v4.txt,o1-preview,PieChart.csv,Pie Chart,Make Comparisons,No
+21,4,4,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v4.txt,o1-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,5,1,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v5.txt,gpt-4o,PieChart.csv,Pie Chart,Make Comparisons,No
+21,5,2,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v5.txt,gpt-4o-mini,PieChart.csv,Pie Chart,Make Comparisons,No
+21,5,3,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v5.txt,o1-preview,PieChart.csv,Pie Chart,Make Comparisons,No
+21,5,4,The global smartphone market share of Apple is larger than that of Xiaomi.,PieChart_Prompt_v5.txt,o1-mini,PieChart.csv,Pie Chart,Make Comparisons,No

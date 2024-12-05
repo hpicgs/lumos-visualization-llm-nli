@@ -1,0 +1,141 @@
+Question_item,Instruction Prompt_Item,Model_Item,Question,Instruction Prompt,Model,Dataset,Visualization,Task,Question_Answer
+47,1,1,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,1,2,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,1,3,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,1,4,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,2,1,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,2,2,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,2,3,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,2,4,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,3,1,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,3,2,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,3,3,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,3,4,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,4,1,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,4,2,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,4,3,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,4,4,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,5,1,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,5,2,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,5,3,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+47,5,4,What is the total length of the metro system in Beijing?,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Retrieve Value,342
+48,1,1,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,1,2,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,1,3,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,1,4,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,2,1,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,2,2,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,2,3,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,2,4,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,3,1,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,3,2,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,3,3,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,3,4,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,4,1,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,4,2,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,4,3,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,4,4,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,5,1,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,5,2,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,5,3,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+48,5,4,Which city's metro system has the largest number of stations?,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Extremum,Shanghai
+49,1,1,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,1,2,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,1,3,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,1,4,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,2,1,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,2,2,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,2,3,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,2,4,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,3,1,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,3,2,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,3,3,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,3,4,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,4,1,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,4,2,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,4,3,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,4,4,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,5,1,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,5,2,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,5,3,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Determine Range,295
+49,5,4,What is the range of the total length of the metro systems?,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Determine Range,295
+51,1,1,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,1,2,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,1,3,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,1,4,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,2,1,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,2,2,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,2,3,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,2,4,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,3,1,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,3,2,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,3,3,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,3,4,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,4,1,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,4,2,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,4,3,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,4,4,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,5,1,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,5,2,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,5,3,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+51,5,4,Which city's metro system does lie outside the relationship between the total system length and the number of stations most?,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Anomalies,Paris
+52,1,1,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,1,2,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,1,3,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,1,4,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,2,1,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,2,2,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,2,3,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,2,4,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,3,1,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,3,2,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,3,3,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,3,4,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,4,1,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,4,2,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,4,3,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,4,4,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,5,1,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,5,2,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,5,3,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Clusters,No
+52,5,4,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Clusters,No
+53,1,1,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,1,2,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,1,3,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,1,4,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,2,1,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,2,2,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,2,3,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,2,4,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,3,1,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,3,2,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,3,3,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,3,4,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,4,1,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,4,2,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,4,3,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,4,4,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,5,1,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,5,2,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,5,3,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+53,5,4,"In general, the ridership of the metro system increases as the number of stations increases.",BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Find Correlations/Trends,No
+54,1,1,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v1.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,1,2,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v1.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,1,3,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v1.txt,o1-preview,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,1,4,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v1.txt,o1-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,2,1,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v2.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,2,2,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v2.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,2,3,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v2.txt,o1-preview,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,2,4,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v2.txt,o1-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,3,1,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v3.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,3,2,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v3.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,3,3,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v3.txt,o1-preview,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,3,4,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v3.txt,o1-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,4,1,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v4.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,4,2,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v4.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,4,3,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v4.txt,o1-preview,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,4,4,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v4.txt,o1-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,5,1,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v5.txt,gpt-4o,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,5,2,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v5.txt,gpt-4o-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,5,3,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v5.txt,o1-preview,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes
+54,5,4,The metro system in Shanghai has more ridership than the metro system in Beijing.,BubbleChart_Prompt_v5.txt,o1-mini,BubbleChart.csv,Bubble Chart,Make Comparisons,Yes

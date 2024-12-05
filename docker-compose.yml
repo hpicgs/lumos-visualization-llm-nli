@@ -1,0 +1,43 @@
+services:
+  database:
+    image: mongo:8.0.1-noble
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
+    command: mongod --logpath=/dev/null
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+  express:
+    build:
+      context: ./app_api
+    ports:
+      - 3000:3000
+    depends_on:
+      - database
+    environment:
+      - NODE_ENV=production
+      - REDIS_HOST=redis
+    volumes:
+      - ./data/fileUploads:/data/fileUploads
+    env_file:
+      - .env
+  job-server:
+    build:
+      context: ./app_job_server
+    environment:
+      - REDIS_HOST=redis
+    depends_on:
+      - redis
+  # frontend:
+  #   build:
+  #     context: ./app_client
+  #   ports:
+  #     - 5173:5173
+  #   depends_on:
+  #     - express
