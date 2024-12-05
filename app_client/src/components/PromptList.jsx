@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import PromptCreateDialog from "./PromptCreateDialog";
 
-// TODO add badge if subprompts present
 function Prompt(props) {
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -19,6 +18,7 @@ function Prompt(props) {
                     <p
                         id={"content-" + props.prompt._id}
                         className={`mt-1 text-sm leading-5 text-gray-500 cursor-pointer ${isExpanded ? "" : "line-clamp-[9]"}`}
+                        style={{ whiteSpace: "pre-line" }}
                         onClick={() => toggleExpanded()}
                     >{props.prompt.content}</p>
                 </div>
@@ -55,33 +55,35 @@ export default function PromptList() {
 
     return (
         <>
-            <div>
-                <button
-                    className="rounded-none bg-orange-100"
-                    onClick={() => setIsPromptCreationOpen(true)}
-                >Add Prompt</button>
-            </div>
-
-            {prompts.length ? (
-                <ul role="list" className="divide-y divide-gray-100">
-                    {prompts.map((prompt) => <Prompt key={prompt._id} prompt={prompt} />
-                    )}
-                </ul>
-            ) : (
-                <div className="items-center">
-                    <h1>Nothing here!</h1>
-                    <p className="mt-2">
-                        <i>No Prompts have been Created yet</i>
-                    </p>
+            <div className="flex flex-col p-5 ml-5">
+                <div>
+                    <button
+                        className="rounded-none bg-orange-100"
+                        onClick={() => setIsPromptCreationOpen(true)}
+                    >Add Prompt</button>
                 </div>
-            )}
 
+                {prompts.length ? (
+                    <ul role="list" className="divide-y divide-gray-100">
+                        {prompts.map((prompt) => <Prompt key={prompt._id} prompt={prompt} />
+                        )}
+                    </ul>
+                ) : (
+                    <div className="items-center">
+                        <h1>Nothing here!</h1>
+                        <p className="mt-2">
+                            <i>No Prompts have been Created yet</i>
+                        </p>
+                    </div>
+                )}
+            </div>
             <PromptCreateDialog
                 open={isPromptCreationOpen}
                 onClose={(savedPrompt) => {
                     setIsPromptCreationOpen(false);
                     setPrompts((prev) => [...prev, savedPrompt])
                 }} />
+
         </>
     );
 }
