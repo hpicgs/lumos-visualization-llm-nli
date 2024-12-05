@@ -1,0 +1,161 @@
+task,model,prompt,number_False,number_True,hit_rate
+Determine Range,gpt-4o,1,1,4,0.8
+Determine Range,gpt-4o,2,1,4,0.8
+Determine Range,gpt-4o,3,0,5,1.0
+Determine Range,gpt-4o,4,1,4,0.8
+Determine Range,gpt-4o,5,0,5,1.0
+Determine Range,gpt-4o-mini,1,2,3,0.6
+Determine Range,gpt-4o-mini,2,1,4,0.8
+Determine Range,gpt-4o-mini,3,0,5,1.0
+Determine Range,gpt-4o-mini,4,1,4,0.8
+Determine Range,gpt-4o-mini,5,1,4,0.8
+Determine Range,o1-mini,1,1,4,0.8
+Determine Range,o1-mini,2,1,4,0.8
+Determine Range,o1-mini,3,0,5,1.0
+Determine Range,o1-mini,4,1,4,0.8
+Determine Range,o1-mini,5,1,4,0.8
+Determine Range,o1-preview,1,0,5,1.0
+Determine Range,o1-preview,2,1,4,0.8
+Determine Range,o1-preview,3,0,5,1.0
+Determine Range,o1-preview,4,0,5,1.0
+Determine Range,o1-preview,5,0,5,1.0
+Find Anomalies,gpt-4o,1,1,0,0.0
+Find Anomalies,gpt-4o,2,1,0,0.0
+Find Anomalies,gpt-4o,3,1,0,0.0
+Find Anomalies,gpt-4o,4,1,0,0.0
+Find Anomalies,gpt-4o,5,1,0,0.0
+Find Anomalies,gpt-4o-mini,1,1,0,0.0
+Find Anomalies,gpt-4o-mini,2,1,0,0.0
+Find Anomalies,gpt-4o-mini,3,1,0,0.0
+Find Anomalies,gpt-4o-mini,4,1,0,0.0
+Find Anomalies,gpt-4o-mini,5,1,0,0.0
+Find Anomalies,o1-mini,1,0,1,1.0
+Find Anomalies,o1-mini,2,1,0,0.0
+Find Anomalies,o1-mini,3,1,0,0.0
+Find Anomalies,o1-mini,4,0,1,1.0
+Find Anomalies,o1-mini,5,0,1,1.0
+Find Anomalies,o1-preview,1,0,1,1.0
+Find Anomalies,o1-preview,2,0,1,1.0
+Find Anomalies,o1-preview,3,1,0,0.0
+Find Anomalies,o1-preview,4,0,1,1.0
+Find Anomalies,o1-preview,5,1,0,0.0
+Find Clusters,gpt-4o,1,0,2,1.0
+Find Clusters,gpt-4o,2,1,1,0.5
+Find Clusters,gpt-4o,3,1,1,0.5
+Find Clusters,gpt-4o,4,1,1,0.5
+Find Clusters,gpt-4o,5,1,1,0.5
+Find Clusters,gpt-4o-mini,1,0,2,1.0
+Find Clusters,gpt-4o-mini,2,1,1,0.5
+Find Clusters,gpt-4o-mini,3,0,2,1.0
+Find Clusters,gpt-4o-mini,4,1,1,0.5
+Find Clusters,gpt-4o-mini,5,1,1,0.5
+Find Clusters,o1-mini,1,1,1,0.5
+Find Clusters,o1-mini,2,0,2,1.0
+Find Clusters,o1-mini,3,0,2,1.0
+Find Clusters,o1-mini,4,0,2,1.0
+Find Clusters,o1-mini,5,1,1,0.5
+Find Clusters,o1-preview,1,2,0,0.0
+Find Clusters,o1-preview,2,2,0,0.0
+Find Clusters,o1-preview,3,2,0,0.0
+Find Clusters,o1-preview,4,1,1,0.5
+Find Clusters,o1-preview,5,2,0,0.0
+Find Correlations/Trends,gpt-4o,1,0,2,1.0
+Find Correlations/Trends,gpt-4o,2,0,2,1.0
+Find Correlations/Trends,gpt-4o,3,0,2,1.0
+Find Correlations/Trends,gpt-4o,4,0,2,1.0
+Find Correlations/Trends,gpt-4o,5,0,2,1.0
+Find Correlations/Trends,gpt-4o-mini,1,1,1,0.5
+Find Correlations/Trends,gpt-4o-mini,2,1,1,0.5
+Find Correlations/Trends,gpt-4o-mini,3,1,1,0.5
+Find Correlations/Trends,gpt-4o-mini,4,1,1,0.5
+Find Correlations/Trends,gpt-4o-mini,5,0,2,1.0
+Find Correlations/Trends,o1-mini,1,0,2,1.0
+Find Correlations/Trends,o1-mini,2,0,2,1.0
+Find Correlations/Trends,o1-mini,3,0,2,1.0
+Find Correlations/Trends,o1-mini,4,0,2,1.0
+Find Correlations/Trends,o1-mini,5,0,2,1.0
+Find Correlations/Trends,o1-preview,1,0,2,1.0
+Find Correlations/Trends,o1-preview,2,0,2,1.0
+Find Correlations/Trends,o1-preview,3,0,2,1.0
+Find Correlations/Trends,o1-preview,4,0,2,1.0
+Find Correlations/Trends,o1-preview,5,1,1,0.5
+Find Extremum,gpt-4o,1,1,11,0.92
+Find Extremum,gpt-4o,2,1,11,0.92
+Find Extremum,gpt-4o,3,1,11,0.92
+Find Extremum,gpt-4o,4,1,11,0.92
+Find Extremum,gpt-4o,5,2,10,0.83
+Find Extremum,gpt-4o-mini,1,1,11,0.92
+Find Extremum,gpt-4o-mini,2,1,11,0.92
+Find Extremum,gpt-4o-mini,3,1,11,0.92
+Find Extremum,gpt-4o-mini,4,1,11,0.92
+Find Extremum,gpt-4o-mini,5,0,12,1.0
+Find Extremum,o1-mini,1,1,11,0.92
+Find Extremum,o1-mini,2,1,11,0.92
+Find Extremum,o1-mini,3,0,12,1.0
+Find Extremum,o1-mini,4,1,11,0.92
+Find Extremum,o1-mini,5,1,11,0.92
+Find Extremum,o1-preview,1,0,12,1.0
+Find Extremum,o1-preview,2,0,12,1.0
+Find Extremum,o1-preview,3,2,10,0.83
+Find Extremum,o1-preview,4,1,11,0.92
+Find Extremum,o1-preview,5,1,11,0.92
+Identify the Hierarchical Structure,gpt-4o,1,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,2,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,3,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,4,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,5,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,1,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,2,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,3,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,4,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,5,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,1,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,2,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,3,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,4,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,5,0,1,1.0
+Identify the Hierarchical Structure,o1-preview,1,0,1,1.0
+Identify the Hierarchical Structure,o1-preview,2,0,1,1.0
+Identify the Hierarchical Structure,o1-preview,3,0,1,1.0
+Identify the Hierarchical Structure,o1-preview,4,0,1,1.0
+Identify the Hierarchical Structure,o1-preview,5,0,1,1.0
+Make Comparisons,gpt-4o,1,1,12,0.92
+Make Comparisons,gpt-4o,2,3,10,0.77
+Make Comparisons,gpt-4o,3,2,11,0.85
+Make Comparisons,gpt-4o,4,1,12,0.92
+Make Comparisons,gpt-4o,5,1,12,0.92
+Make Comparisons,gpt-4o-mini,1,0,13,1.0
+Make Comparisons,gpt-4o-mini,2,2,11,0.85
+Make Comparisons,gpt-4o-mini,3,2,11,0.85
+Make Comparisons,gpt-4o-mini,4,2,11,0.85
+Make Comparisons,gpt-4o-mini,5,0,13,1.0
+Make Comparisons,o1-mini,1,1,12,0.92
+Make Comparisons,o1-mini,2,1,12,0.92
+Make Comparisons,o1-mini,3,1,12,0.92
+Make Comparisons,o1-mini,4,1,12,0.92
+Make Comparisons,o1-mini,5,1,12,0.92
+Make Comparisons,o1-preview,1,1,12,0.92
+Make Comparisons,o1-preview,2,1,12,0.92
+Make Comparisons,o1-preview,3,1,12,0.92
+Make Comparisons,o1-preview,4,2,11,0.85
+Make Comparisons,o1-preview,5,1,12,0.92
+Retrieve Value,gpt-4o,1,0,13,1.0
+Retrieve Value,gpt-4o,2,0,13,1.0
+Retrieve Value,gpt-4o,3,0,13,1.0
+Retrieve Value,gpt-4o,4,0,13,1.0
+Retrieve Value,gpt-4o,5,0,13,1.0
+Retrieve Value,gpt-4o-mini,1,2,11,0.85
+Retrieve Value,gpt-4o-mini,2,1,12,0.92
+Retrieve Value,gpt-4o-mini,3,1,12,0.92
+Retrieve Value,gpt-4o-mini,4,0,13,1.0
+Retrieve Value,gpt-4o-mini,5,1,12,0.92
+Retrieve Value,o1-mini,1,1,12,0.92
+Retrieve Value,o1-mini,2,1,12,0.92
+Retrieve Value,o1-mini,3,1,12,0.92
+Retrieve Value,o1-mini,4,1,12,0.92
+Retrieve Value,o1-mini,5,0,13,1.0
+Retrieve Value,o1-preview,1,2,11,0.85
+Retrieve Value,o1-preview,2,0,13,1.0
+Retrieve Value,o1-preview,3,1,12,0.92
+Retrieve Value,o1-preview,4,0,13,1.0
+Retrieve Value,o1-preview,5,0,13,1.0
