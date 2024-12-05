@@ -2,7 +2,6 @@ const fsPromise = require("fs").promises;
 const fs = require("fs")
 const papa = require("papaparse")
 const path = require("path")
-const FormData = require("form-data")
 
 const prompts = {}
 const questions = {}
@@ -48,30 +47,6 @@ const readQuestions = async (folder) => {
     }
 }
 
-const uploadDatasets = async (folder) => {
-    async function submitFile(file) {
-        const form = new FormData();
-        form.append("description", "Dataset for eurovis benchmark");
-        form.append("dataFile", fs.createReadStream(file));
-
-        return new Promise((resolve) => {
-            form.submit("http://localhost:3000/api/files", (err, res) => {
-                resolve(res);
-            })
-        });
-    }
-
-    const filenames = await fsPromise.readdir(folder);
-    const filepaths = filenames.map(filename => [
-        path.join(folder, filename).toString(),
-        path.parse(filename).name
-    ])
-
-    for (const [file, filename] of filepaths) {
-        await submitFile(file)
-    }
-}
-
 const uploadTests = async () => {
     async function postTest(test) {
         await fetch("http://localhost:3000/api/tests", {
@@ -111,7 +86,6 @@ const uploadTests = async () => {
         await readPrompts("./eurovis/prompts");
         await readQuestions("./eurovis/questions");
         await uploadTests();
-        // await uploadDatasets("./eurovis/datasets");
     } catch (error) {
         console.error('Error:', error);
     }
