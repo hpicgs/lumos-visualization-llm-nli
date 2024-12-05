@@ -37,26 +37,28 @@ export default function FileList() {
 
     return (
         <>
-            <div>
-                <button
-                    className="rounded-none bg-orange-100"
-                    onClick={() => setIsFileCreationOpen(true)}
-                >Add File</button>
-            </div>
-
-            {files.length ? (
-                <ul role="list" className="divide-y divide-gray-100">
-                    {files.map((file) => <File key={file._id} file={file} />
-                    )}
-                </ul>
-            ) : (
-                <div className="items-center">
-                    <h1>Nothing here!</h1>
-                    <p className="mt-2">
-                        <i>No Files have been Created yet</i>
-                    </p>
+            <div className="flex flex-col p-5 ml-5">
+                <div>
+                    <button
+                        className="rounded-none bg-orange-100"
+                        onClick={() => setIsFileCreationOpen(true)}
+                    >Add File</button>
                 </div>
-            )}
+
+                {files.length ? (
+                    <ul role="list" className="divide-y divide-gray-100">
+                        {files.map((file) => <File key={file._id} file={file} />
+                        )}
+                    </ul>
+                ) : (
+                    <div className="items-center">
+                        <h1>Nothing here!</h1>
+                        <p className="mt-2">
+                            <i>No Files have been Created yet</i>
+                        </p>
+                    </div>
+                )}
+            </div>
 
             <FileCreateDialog
                 open={isFileCreationOpen}
