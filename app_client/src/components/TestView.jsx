@@ -12,8 +12,8 @@ const SelectableButtonGroup = ({ title = "", options = [], onChange }) => {
     };
 
     return (
-        <div className="w-full max-w-md mx-auto">
-            <h2 className="text-lg font-medium mb-4 text-gray-800">{title}</h2>
+        <div className="my-auto mx-auto">
+            <h1 className="text-lg font-medium mb-4 text-gray-800">{title}</h1>
             <div className="inline-flex rounded-md shadow-sm" role="group">
                 {options.map((option, index) => {
                     const selectedStyle = "z-10 ring-2 ring-blue-700 text-blue-700"
@@ -270,24 +270,26 @@ export default function TestView() {
 
     return (
         <>
-            <div className="pt-5 space-y-2">
-                {
-                    Object.entries(urlParameterOptions).map(([param, values]) => {
-                        return <SelectableButtonGroup
-                            key={param}
-                            title={param.charAt(0).toUpperCase() + param.slice(1)}
-                            options={values}
-                            onChange={(option) => setUrlParameters((prev) => {
-                                const newParams = { ...prev };
-                                newParams[param] = option;
-                                return newParams
-                            })} />
-                    })
-                }
-            </div>
+            <div className="flex flex-col w-full p-5 ml-5">
+                <div className="space-y-2">
+                    {
+                        Object.entries(urlParameterOptions).map(([param, values]) => {
+                            return <SelectableButtonGroup
+                                key={param}
+                                title={param.charAt(0).toUpperCase() + param.slice(1)}
+                                options={values}
+                                onChange={(option) => setUrlParameters((prev) => {
+                                    const newParams = { ...prev };
+                                    newParams[param] = option;
+                                    return newParams
+                                })} />
+                        })
+                    }
+                </div>
 
-            <div className="p-4">
-                <Table data={tests} columns={columns} renderers={renderers} />
+                <div className="pt-5">
+                    <Table data={tests} columns={columns} renderers={renderers} />
+                </div>
             </div>
         </>
     );

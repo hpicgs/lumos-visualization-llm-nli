@@ -77,6 +77,7 @@ export default function PromptList() {
                     </div>
                 )}
             </div>
+            
             <PromptCreateDialog
                 open={isPromptCreationOpen}
                 onClose={(savedPrompt) => {
