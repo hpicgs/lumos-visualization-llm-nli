@@ -43,26 +43,28 @@ export default function LlmList() {
 
     return (
         <>
-            <div>
-                <button
-                    className="rounded-none bg-orange-100"
-                    onClick={() => setIsLlmCreationOpen(true)}
-                >Add Llm</button>
-            </div>
-
-            {llms.length ? (
-                <ul role="list" className="divide-y divide-gray-100">
-                    {llms.map((llm) => <Llm key={llm._id} llm={llm} />
-                    )}
-                </ul>
-            ) : (
-                <div className="items-center">
-                    <h1>Nothing here!</h1>
-                    <p className="mt-2">
-                        <i>No Llms have been Created yet</i>
-                    </p>
+            <div className="flex flex-col p-5 ml-5">
+                <div>
+                    <button
+                        className="rounded-none bg-orange-100"
+                        onClick={() => setIsLlmCreationOpen(true)}
+                    >Add Llm</button>
                 </div>
-            )}
+
+                {llms.length ? (
+                    <ul role="list" className="divide-y divide-gray-100">
+                        {llms.map((llm) => <Llm key={llm._id} llm={llm} />
+                        )}
+                    </ul>
+                ) : (
+                    <div className="items-center">
+                        <h1>Nothing here!</h1>
+                        <p className="mt-2">
+                            <i>No Llms have been Created yet</i>
+                        </p>
+                    </div>
+                )}
+            </div>
 
             <LlmCreateDialog
                 open={isLlmCreationOpen}
