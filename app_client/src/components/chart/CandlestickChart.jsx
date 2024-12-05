@@ -58,7 +58,12 @@ export default function CandlestickChart({
     return (
         <div ref={ref}>
             <svg width={dms.width} height={dms.height}>
-                {title && <text x={dms.width / 2} y={0 - (dms.marginTop / 2)}>{title}</text>}
+                {title && <text
+                    style={{
+                        fontSize: "20px",
+                        textAnchor: "middle",
+                    }}
+                    x={dms.width / 2} y={dms.marginTop / 2}>{title}</text>}
                 <g transform={`translate(${[
                     dms.marginLeft,
                     dms.marginTop

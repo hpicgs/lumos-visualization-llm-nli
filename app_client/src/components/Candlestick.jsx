@@ -13,6 +13,7 @@ export default function Candlestick() {
         marginLeft: 45,
         marginRight: 30,
         marginBottom: 50,
+        marginTop: 50
     }
     const [chartConfig, setChartConfig] = useState({
         x: "Date",
@@ -80,7 +81,7 @@ export default function Candlestick() {
                 {/* Vis Component */}
                 <div className="w-full bg-gray-50 flex items-center pl-2">
                     {dataset && <CandlestickChart
-                        title={"VW Stock"}
+                        title={"Volkswagen AG's weekly stock price movements in 2024"}
                         dimensions={chartDimensions}
                         dataset={dataset}
                         highlight={highlight}
