@@ -1,0 +1,22 @@
+Question_item,Task,Visual_NonVisual,Question,Question_Answer,Model,Instruction Prompt,Dataset,Visualization
+1,Retrieve Value,NV,What was the oil price in January 2020?,57.52,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+2,Retrieve Value,NV,What was the oil price in September 2020?,39.63,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+3,Retrieve Value,V,At which value on the vertical axis does the line chart start?,57.52,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+4,Retrieve Value,V,What is the y-value of the line in September 2020?,39.63,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+5,Filter,NV,In how many months was the oil price larger than $30?,9,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+6,Filter,NV,In how many months was the oil price smaller than $30?,3,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+7,Filter,V,How often does the line lies over $30?,9,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+8,Filter,V,How often does the line lies below $30?,3,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+9,Compute Derived Value,NV,What was the average oil price throughout the year?,39.23 (rounded to two decimals),gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+10,Compute Derived Value,NV,How often did the oil price increase from one month to the other?,6,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+11,Compute Derived Value,V,How many subsections have a positive slope?,6,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+13,Find Extremum,NV,What is the month with the largest oil price?,January,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+14,Find Extremum,NV,What is the month with the smallest oil price?,April,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+15,Find Extremum,V,When (month) does the line achieve its maximum value?,January,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+16,Find Extremum,V,In which month does the line achieves its minimum?,April,gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+17,Sort,NV,What are the three months with the largest oil price?,"January, February, December",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+18,Sort,NV,What are the three months with the smallest oil price?,"April, May, March",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+19,Sort,V,In which three months is the line the highest?,"January, February, December",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+20,Sort,V,In which three months is the line the lowest?,"April, May, March",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+21,Determine Range,NV,What is the value range of the oil price in 2020?,"From 16.55 to 57.52, i.e., 40.97",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart
+23,Determine Range,V,What is the range of y-values the line ranges within?,"From 16.55 to 57.52, i.e., 40.97",gpt-4o,LineChart_Prompt.txt,LineChart.csv,Line Chart

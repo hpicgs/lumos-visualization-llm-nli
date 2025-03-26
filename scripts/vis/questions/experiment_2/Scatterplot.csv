@@ -1,0 +1,28 @@
+Question_item,Task,Visual_NonVisual,Question,Question_Answer,Model,Instruction Prompt,Dataset,Visualization
+1,Retrieve Value,NV,What is the weight in kg of the person of size 167.0812cm?,51.25136008kg,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+2,Retrieve Value,NV,What is the height in cm of the person who weights 61.91077208kg?,181.6608cm,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+3,Retrieve Value,V,What is the y-value of the person with x-value 167.0812cm?,51.25136008kg,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+4,Retrieve Value,V,What is the x-value of the person with y-value 61.91077208kg?,181.6608cm,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+5,Filter,NV,How many people have a weight more than 68kg?,3,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+6,Filter,NV,How many people are taller than 180cm?,4,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+7,Filter,V,How many points are above the horizontal line at 68kg?,3,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+8,Filter,V,How many points are right to the vertical line at 180cm?,4,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+9,Compute Derived Value,NV,What is the average weight of all persons?,58.56kg (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+10,Compute Derived Value,NV,What is the average height of all persons?,172.84 cm (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+11,Compute Derived Value,V,What is the average y-value of all points?,58.56kg (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+12,Compute Derived Value,V,What is the average x-value of all points?,172.84 cm (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+13,Find Extremum,NV,What is the weight of the heighest person?,182.372cm,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+14,Find Extremum,NV,What is the height of the heighest person?,63.55kg (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+15,Find Extremum,V,What is the y-value of the point that is most right?,182.372cm,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+16,Find Extremum,V,What is the largest x-value?,63.55kg (rounded to two decimals),gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+17,Sort,NV,What are the weights of the three largest persons?,"63.55kg, 61.91kg, 62.55kg (rounded to two decimals)",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+18,Sort,NV,What are the heights of the three largest persons?,"182.37cm, 181.66cm, 180.92cm (rounded to two decimals)",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+19,Sort,V,What are the y-values of the three points most right?,"63.55kg, 61.91kg, 62.55kg (rounded to two decimals)",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+20,Sort,V,What are the three largest x-values?,"182.37cm, 181.66cm, 180.92cm (rounded to two decimals)",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+21,Determine Range,NV,What is the range of weight?,"From 44.41kg to 70.71kg (rounded to two decimals), i.e., 26.3kg",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+22,Determine Range,NV,What is the range of height?,"From 161.24cm to 182.37cm (rounded to two decimals), i.e., 21.132cm",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+23,Determine Range,V,What is the range of y-values?,"From 44.41kg to 70.71kg (rounded to two decimals), i.e., 26.3kg",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+24,Determine Range,V,What is the range of x-values?,"From 161.24cm to 182.37cm (rounded to two decimals), i.e., 21.132cm",gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+25,Find Anomalies,NV,Are there individuals with an abnormal weight for their height?,Yes,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+26,Find Anomalies,V,Are there points that seem to be outliers?,Yes,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot
+27,Correlate,NV,Do the weight and height correlate in a positive manner?,Yes,gpt-4o,Scatterplot_Prompt.txt,scatter.csv,Scatterplot

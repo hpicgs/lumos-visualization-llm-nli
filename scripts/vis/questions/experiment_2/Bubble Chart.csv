@@ -1,0 +1,25 @@
+Question_item,Task,Visual_NonVisual,Question,Question_Answer,Model,Instruction Prompt,Dataset,Visualization
+1,Retrieve Value,NV,What is the total length of the trail lines in Paris?,304km,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+2,Retrieve Value,NV,What is the number of stations in Shanghai?,743,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+3,Retrieve Value,V,What is the y-value of the point corresponding to Paris?,304km,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+4,Retrieve Value,V,What is the x-value of the point corresponding to Shanghai?,743,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+5,Filter,NV,How many cities have more than 700 stations?,2,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+6,Filter,NV,How many cities have trail lines longer than 400km?,2,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+7,Filter,V,How many data points lie right to the vertical through 700?,2,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+8,Filter,V,How many points lie above the horizontal line through 400?,2,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+9,Compute Derived Value,NV,What is the average number of stations?,448.11 (rounded to two decimals),gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+10,Compute Derived Value,NV,What is the average length across all cities?,301.18km (rounded to two decimals),gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+11,Compute Derived Value,V,What is the average x-coordinate?,448.11 (rounded to two decimals),gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+12,Compute Derived Value,V,What is the average y-coordinateß,301.18km (rounded to two decimals),gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+13,Find Extremum,NV,Which city has the longest trail net?,N.Y.C.,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+14,Find Extremum,NV,Which city has the most stations?,Shanghai,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+15,Find Extremum,V,Which data point has the largest vertical coordinate?,N.Y.C.,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+16,Find Extremum,V,Which data point lies most right?,Shanghai,gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+17,Sort,NV,What are the three cities with the most stations?,"Shanghai, Beijing, Seoul",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+18,Sort,NV,What are the three cities with the shortest total length?,"Mexico City, Moscow, Delhi",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+19,Sort,V,What are the three most right points?,"Shanghai, Beijing, Seoul",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+20,Sort,V,Which city has the smallest y-value?,"Mexico City, Moscow, Delhi",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+21,Determine Range,NV,What is the range in the number of stations?,"From 200.9 to 743, i.e., 542.1",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+22,Determine Range,NV,What is the range in the total length?,"From 163 to 458, i.e., 295",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+23,Determine Range,V,What is the range of x-coordinates?,"From 200.9 to 743, i.e., 542.1",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart
+24,Determine Range,V,What is the range of vertical coordinates?,"From 163 to 458, i.e., 295",gpt-4o,BubbleChart_Prompt.txt,BubbleChart.csv,Bubble Chart

@@ -1,0 +1,12 @@
+Question_item,Task,Visual_NonVisual,Question,Question_Answer,Model,Instruction Prompt,Dataset,Visualization
+1,Retrieve Value,NV,What is the unemployment rate of Utah?,4.70%,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+2,Retrieve Value,NV,What is the unemployment rate of Kentucky?,6.60%,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+3,Filter,NV,How many states have an unemployment rate higher than 5.0%?,48,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+4,Filter,NV,How many states have an unemployment rate lower than 3.0%,0,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+5,Compute Derived Value,NV,What is the average unemployment rate?,7.37% (rounded to two decimals),gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+6,Compute Derived Value,NV,Does Kentucky have a higher unemployment rate than North Dakota?,Yes,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+7,Find Extremum,NV,Which state has the highest unemployment rate?,Nevada with 12.8%,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+8,Find Extremum,NV,Which state has the lowest unemployment rate?,Nebraska with 4.2%,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+9,Sort,NV,What are the three states with the highest unemployment rate?,"Nevada (12.8%), Hawaii (11.6%), California (10.1%)",gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+10,Sort,NV,What are the three states with the lowest unemployment rate?,"Nebraska (4.2%), South Dakota (4.6%), Utah (4.7%)",gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth
+11,Determine Range,NV,What is the range of unemployment rates?,From 4.2% to 12.8%,gpt-4o,Choropleth_Prompt.txt,Choropleth.csv,Choropleth

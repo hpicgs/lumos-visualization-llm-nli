@@ -1,0 +1,25 @@
+Question_item,Task,Visual_NonVisual,Question,Question_Answer,Model,Instruction Prompt,Dataset,Visualization
+1,Retrieve Value,NV,What was the opening price in Week 31?,105.35,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+2,Retrieve Value,NV,What was the maximum price in the first week?,114.56,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+3,Retrieve Value,V,What is the upper bound of the 31st box?,105.35,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+4,Retrieve Value,V,What is the maximum of the vertical line that goes through the first box?,114.56,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+5,Filter,NV,In how many weeks did the stock reach a price higher than $126?,3,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+6,Filter,NV,In how many weeks was the price at the end of the week lower than at the beginning of the week?,30,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+7,Filter,V,How many boxes or their vertical sections exceed $126?,3,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+8,Filter,V,How many boxes are red?,30,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+9,Compute Derived Value,NV,What is the average closing price over the year?,105.58 (rounded to two decimals),gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+10,Compute Derived Value,NV,What week had the highest absolute difference between opening and closing price?,Week 31,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+11,Compute Derived Value,V,What box has the largest width?,They all have the same width as it is constant,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+12,Compute Derived Value,V,"Which box, i.e., which number, has the largest height of all boxes?",Week 31,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+13,Find Extremum,NV,What was the highest closing price within a week throughout the year?,Week 14,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+14,Find Extremum,NV,In which week did the stock reach its lowest point of the year?,Week 48,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+15,Find Extremum,V,In which week did a box or their vertical sections reach its overall maximum?,Week 14,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+16,Find Extremum,V,When did a box or their vertical sections reach its overall minimum?,Week 48,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+17,Sort,NV,In which three weeks did the stock rise the most?,"In Week 4, 39, 13",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+18,Sort,NV,In which three weeks did the stock's value decline the most?,"In Week 31, 24, 3",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+19,Sort,V,Which three weeks have the green boxes with the largest height?,"In Week 4, 39, 13",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+20,Sort,V,Which three weeks have the red boxes with the largest height?,"In Week 31, 24, 3",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+21,Determine Range,NV,What is the total range of values the stock had within the year?,"From 81.8 to 128.6, i.e., 46.8",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+22,Determine Range,NV,What is the range of closing values throughout the year?,"From 80.72 to 126.4, i.e., 45.68",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+23,Determine Range,V,In which range do the boxes or their vertical sections range throughout the year?,"From 81.8 to 128.6, i.e., 46.8",gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart
+24,Determine Range,V,What is the range of box widths?,They all have the same width as it is constant,gpt-4o,CandlestickChart_Prompt.txt,Volkswagen_Candlestick.csv,Candlestick Chart

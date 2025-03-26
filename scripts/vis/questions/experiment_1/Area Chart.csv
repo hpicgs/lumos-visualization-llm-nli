@@ -1,0 +1,81 @@
+Question_item,Instruction Prompt_Item,Model_Item,Question,Instruction Prompt,Model,Dataset,Visualization,Task,Question_Answer
+35,1,1,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v1.txt,gpt-4o,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,1,2,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v1.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,1,3,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v1.txt,o1,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,1,4,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v1.txt,o1-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,2,1,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v2.txt,gpt-4o,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,2,2,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v2.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,2,3,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v2.txt,o1,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,2,4,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v2.txt,o1-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,3,1,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v3.txt,gpt-4o,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,3,2,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v3.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,3,3,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v3.txt,o1,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,3,4,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v3.txt,o1-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,4,1,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v4.txt,gpt-4o,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,4,2,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v4.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,4,3,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v4.txt,o1,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,4,4,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v4.txt,o1-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,5,1,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v5.txt,gpt-4o,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,5,2,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v5.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,5,3,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v5.txt,o1,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+35,5,4,What was the average price of a pound of cofee beans in September 2018?,AreaChart_Prompt_v5.txt,o1-mini,AreaChart-2.csv,Area Chart,Retrieve Value,76.7
+36,1,1,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v1.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,1,2,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v1.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,1,3,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v1.txt,o1,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,1,4,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v1.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,2,1,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v2.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,2,2,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v2.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,2,3,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v2.txt,o1,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,2,4,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v2.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,3,1,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v3.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,3,2,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v3.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,3,3,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v3.txt,o1,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,3,4,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v3.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,4,1,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v4.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,4,2,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v4.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,4,3,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v4.txt,o1,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,4,4,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v4.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,5,1,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v5.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,5,2,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v5.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,5,3,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v5.txt,o1,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+36,5,4,When was the average price of a pound of cofee beans at minimum?,AreaChart_Prompt_v5.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Extremum,October 2019
+37,1,1,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v1.txt,gpt-4o,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,1,2,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v1.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,1,3,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v1.txt,o1,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,1,4,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v1.txt,o1-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,2,1,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v2.txt,gpt-4o,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,2,2,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v2.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,2,3,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v2.txt,o1,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,2,4,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v2.txt,o1-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,3,1,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v3.txt,gpt-4o,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,3,2,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v3.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,3,3,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v3.txt,o1,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,3,4,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v3.txt,o1-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,4,1,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v4.txt,gpt-4o,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,4,2,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v4.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,4,3,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v4.txt,o1,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,4,4,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v4.txt,o1-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,5,1,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v5.txt,gpt-4o,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,5,2,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v5.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,5,3,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v5.txt,o1,AreaChart-2.csv,Area Chart,Determine Range,20.61
+37,5,4,What was the range of the average price of a pound of cofee beans between January 2018 and December 2019?,AreaChart_Prompt_v5.txt,o1-mini,AreaChart-2.csv,Area Chart,Determine Range,20.61
+38,1,1,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v1.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,1,2,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v1.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,1,3,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v1.txt,o1,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,1,4,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v1.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,2,1,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v2.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,2,2,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v2.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,2,3,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v2.txt,o1,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,2,4,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v2.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,3,1,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v3.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,3,2,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v3.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,3,3,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v3.txt,o1,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,3,4,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v3.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,4,1,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v4.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,4,2,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v4.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,4,3,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v4.txt,o1,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,4,4,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v4.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,5,1,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v5.txt,gpt-4o,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,5,2,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v5.txt,gpt-4o-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,5,3,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v5.txt,o1,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling
+38,5,4,What was the trend in the average price of a pound of coffee beans over the course of 2018?,AreaChart_Prompt_v5.txt,o1-mini,AreaChart-2.csv,Area Chart,Find Correlations/Trends,falling

@@ -1,0 +1,121 @@
+Question_item,Instruction Prompt_Item,Model_Item,Question,Instruction Prompt,Model,Dataset,Visualization,Task,Question_Answer
+27,1,1,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,1,2,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,1,3,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,1,4,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,2,1,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,2,2,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,2,3,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,2,4,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,3,1,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,3,2,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,3,3,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,3,4,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,4,1,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,4,2,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,4,3,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,4,4,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,5,1,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,5,2,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,5,3,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+27,5,4,What is the weight in kg for the person who is 165.7858 cm tall?,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Retrieve Value,58.65398152
+28,1,1,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Find Extremum,182.372
+28,1,2,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,1,3,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Find Extremum,182.372
+28,1,4,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,2,1,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Find Extremum,182.372
+28,2,2,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,2,3,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Find Extremum,182.372
+28,2,4,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,3,1,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Find Extremum,182.372
+28,3,2,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,3,3,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Find Extremum,182.372
+28,3,4,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,4,1,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Find Extremum,182.372
+28,4,2,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,4,3,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Find Extremum,182.372
+28,4,4,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,5,1,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Find Extremum,182.372
+28,5,2,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+28,5,3,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Find Extremum,182.372
+28,5,4,What is the height in cm for the tallest person among the 85 males?,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Find Extremum,182.372
+29,1,1,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Determine Range,26.308336
+29,1,2,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,1,3,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Determine Range,26.308336
+29,1,4,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,2,1,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Determine Range,26.308336
+29,2,2,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,2,3,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Determine Range,26.308336
+29,2,4,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,3,1,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Determine Range,26.308336
+29,3,2,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,3,3,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Determine Range,26.308336
+29,3,4,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,4,1,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Determine Range,26.308336
+29,4,2,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,4,3,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Determine Range,26.308336
+29,4,4,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,5,1,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Determine Range,26.308336
+29,5,2,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+29,5,3,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Determine Range,26.308336
+29,5,4,What is the range in weight measured in kg for the 85 males?,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Determine Range,26.308336
+32,1,1,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Find Clusters,Yes
+32,1,2,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,1,3,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Find Clusters,Yes
+32,1,4,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,2,1,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Find Clusters,Yes
+32,2,2,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,2,3,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Find Clusters,Yes
+32,2,4,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,3,1,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Find Clusters,Yes
+32,3,2,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,3,3,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Find Clusters,Yes
+32,3,4,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,4,1,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Find Clusters,Yes
+32,4,2,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,4,3,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Find Clusters,Yes
+32,4,4,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,5,1,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Find Clusters,Yes
+32,5,2,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+32,5,3,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Find Clusters,Yes
+32,5,4,A group of males are gathered around the height of 176 cm and the weight of 70 kg.,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Find Clusters,Yes
+33,1,1,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,1,2,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,1,3,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,1,4,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,2,1,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,2,2,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,2,3,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,2,4,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,3,1,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,3,2,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,3,3,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,3,4,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,4,1,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,4,2,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,4,3,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,4,4,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,5,1,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,5,2,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,5,3,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Find Correlations/Trends,No
+33,5,4,There is a negative linear relationship between the height and the weight of the 85 males.,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Find Correlations/Trends,No
+34,1,1,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v1.txt,gpt-4o,scatter.csv,Scatterplot,Make Comparisons,No
+34,1,2,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v1.txt,gpt-4o-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,1,3,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v1.txt,o1,scatter.csv,Scatterplot,Make Comparisons,No
+34,1,4,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v1.txt,o1-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,2,1,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v2.txt,gpt-4o,scatter.csv,Scatterplot,Make Comparisons,No
+34,2,2,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v2.txt,gpt-4o-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,2,3,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v2.txt,o1,scatter.csv,Scatterplot,Make Comparisons,No
+34,2,4,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v2.txt,o1-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,3,1,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v3.txt,gpt-4o,scatter.csv,Scatterplot,Make Comparisons,No
+34,3,2,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v3.txt,gpt-4o-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,3,3,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v3.txt,o1,scatter.csv,Scatterplot,Make Comparisons,No
+34,3,4,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v3.txt,o1-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,4,1,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v4.txt,gpt-4o,scatter.csv,Scatterplot,Make Comparisons,No
+34,4,2,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v4.txt,gpt-4o-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,4,3,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v4.txt,o1,scatter.csv,Scatterplot,Make Comparisons,No
+34,4,4,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v4.txt,o1-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,5,1,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v5.txt,gpt-4o,scatter.csv,Scatterplot,Make Comparisons,No
+34,5,2,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v5.txt,gpt-4o-mini,scatter.csv,Scatterplot,Make Comparisons,No
+34,5,3,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v5.txt,o1,scatter.csv,Scatterplot,Make Comparisons,No
+34,5,4,The weights for males with the height of 188 cm are all the same.,Scatterplot_Prompt_v5.txt,o1-mini,scatter.csv,Scatterplot,Make Comparisons,No

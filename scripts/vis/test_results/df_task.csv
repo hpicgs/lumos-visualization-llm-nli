@@ -1,0 +1,161 @@
+task,model,prompt,0,1,hit_rate
+Determine Range,gpt-4o,1,1,4,0.8
+Determine Range,gpt-4o,2,1,4,0.8
+Determine Range,gpt-4o,3,1,4,0.8
+Determine Range,gpt-4o,4,1,4,0.8
+Determine Range,gpt-4o,5,0,5,1.0
+Determine Range,gpt-4o-mini,1,2,3,0.6
+Determine Range,gpt-4o-mini,2,2,3,0.6
+Determine Range,gpt-4o-mini,3,1,4,0.8
+Determine Range,gpt-4o-mini,4,1,4,0.8
+Determine Range,gpt-4o-mini,5,1,4,0.8
+Determine Range,o1,1,0,5,1.0
+Determine Range,o1,2,0,5,1.0
+Determine Range,o1,3,0,5,1.0
+Determine Range,o1,4,0,5,1.0
+Determine Range,o1,5,0,5,1.0
+Determine Range,o1-mini,1,1,4,0.8
+Determine Range,o1-mini,2,1,4,0.8
+Determine Range,o1-mini,3,0,5,1.0
+Determine Range,o1-mini,4,1,4,0.8
+Determine Range,o1-mini,5,1,4,0.8
+Find Anomalies,gpt-4o,1,1,0,0.0
+Find Anomalies,gpt-4o,2,1,0,0.0
+Find Anomalies,gpt-4o,3,1,0,0.0
+Find Anomalies,gpt-4o,4,0,1,1.0
+Find Anomalies,gpt-4o,5,1,0,0.0
+Find Anomalies,gpt-4o-mini,1,0,1,1.0
+Find Anomalies,gpt-4o-mini,2,0,1,1.0
+Find Anomalies,gpt-4o-mini,3,0,1,1.0
+Find Anomalies,gpt-4o-mini,4,1,0,0.0
+Find Anomalies,gpt-4o-mini,5,0,1,1.0
+Find Anomalies,o1,1,1,0,0.0
+Find Anomalies,o1,2,1,0,0.0
+Find Anomalies,o1,3,1,0,0.0
+Find Anomalies,o1,4,1,0,0.0
+Find Anomalies,o1,5,1,0,0.0
+Find Anomalies,o1-mini,1,1,0,0.0
+Find Anomalies,o1-mini,2,1,0,0.0
+Find Anomalies,o1-mini,3,1,0,0.0
+Find Anomalies,o1-mini,4,1,0,0.0
+Find Anomalies,o1-mini,5,1,0,0.0
+Find Clusters,gpt-4o,1,1,1,0.5
+Find Clusters,gpt-4o,2,2,0,0.0
+Find Clusters,gpt-4o,3,1,1,0.5
+Find Clusters,gpt-4o,4,1,1,0.5
+Find Clusters,gpt-4o,5,1,1,0.5
+Find Clusters,gpt-4o-mini,1,0,2,1.0
+Find Clusters,gpt-4o-mini,2,1,1,0.5
+Find Clusters,gpt-4o-mini,3,2,0,0.0
+Find Clusters,gpt-4o-mini,4,1,1,0.5
+Find Clusters,gpt-4o-mini,5,1,1,0.5
+Find Clusters,o1,1,2,0,0.0
+Find Clusters,o1,2,1,1,0.5
+Find Clusters,o1,3,1,1,0.5
+Find Clusters,o1,4,1,1,0.5
+Find Clusters,o1,5,2,0,0.0
+Find Clusters,o1-mini,1,2,0,0.0
+Find Clusters,o1-mini,2,1,1,0.5
+Find Clusters,o1-mini,3,1,1,0.5
+Find Clusters,o1-mini,4,1,1,0.5
+Find Clusters,o1-mini,5,1,1,0.5
+Find Correlations/Trends,gpt-4o,1,1,4,0.8
+Find Correlations/Trends,gpt-4o,2,0,5,1.0
+Find Correlations/Trends,gpt-4o,3,1,4,0.8
+Find Correlations/Trends,gpt-4o,4,0,5,1.0
+Find Correlations/Trends,gpt-4o,5,0,5,1.0
+Find Correlations/Trends,gpt-4o-mini,1,1,4,0.8
+Find Correlations/Trends,gpt-4o-mini,2,1,4,0.8
+Find Correlations/Trends,gpt-4o-mini,3,1,4,0.8
+Find Correlations/Trends,gpt-4o-mini,4,2,3,0.6
+Find Correlations/Trends,gpt-4o-mini,5,1,4,0.8
+Find Correlations/Trends,o1,1,1,4,0.8
+Find Correlations/Trends,o1,2,1,4,0.8
+Find Correlations/Trends,o1,3,1,4,0.8
+Find Correlations/Trends,o1,4,0,5,1.0
+Find Correlations/Trends,o1,5,0,5,1.0
+Find Correlations/Trends,o1-mini,1,0,5,1.0
+Find Correlations/Trends,o1-mini,2,1,4,0.8
+Find Correlations/Trends,o1-mini,3,1,4,0.8
+Find Correlations/Trends,o1-mini,4,1,4,0.8
+Find Correlations/Trends,o1-mini,5,0,5,1.0
+Find Extremum,gpt-4o,1,2,10,0.8333333333333334
+Find Extremum,gpt-4o,2,2,10,0.8333333333333334
+Find Extremum,gpt-4o,3,1,11,0.9166666666666666
+Find Extremum,gpt-4o,4,2,10,0.8333333333333334
+Find Extremum,gpt-4o,5,2,10,0.8333333333333334
+Find Extremum,gpt-4o-mini,1,2,10,0.8333333333333334
+Find Extremum,gpt-4o-mini,2,2,10,0.8333333333333334
+Find Extremum,gpt-4o-mini,3,2,10,0.8333333333333334
+Find Extremum,gpt-4o-mini,4,2,10,0.8333333333333334
+Find Extremum,gpt-4o-mini,5,2,10,0.8333333333333334
+Find Extremum,o1,1,1,11,0.9166666666666666
+Find Extremum,o1,2,0,12,1.0
+Find Extremum,o1,3,1,11,0.9166666666666666
+Find Extremum,o1,4,1,11,0.9166666666666666
+Find Extremum,o1,5,1,11,0.9166666666666666
+Find Extremum,o1-mini,1,1,11,0.9166666666666666
+Find Extremum,o1-mini,2,1,11,0.9166666666666666
+Find Extremum,o1-mini,3,1,11,0.9166666666666666
+Find Extremum,o1-mini,4,1,11,0.9166666666666666
+Find Extremum,o1-mini,5,1,11,0.9166666666666666
+Identify the Hierarchical Structure,gpt-4o,1,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,2,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,3,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,4,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o,5,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,1,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,2,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,3,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,4,0,1,1.0
+Identify the Hierarchical Structure,gpt-4o-mini,5,0,1,1.0
+Identify the Hierarchical Structure,o1,1,0,1,1.0
+Identify the Hierarchical Structure,o1,2,0,1,1.0
+Identify the Hierarchical Structure,o1,3,0,1,1.0
+Identify the Hierarchical Structure,o1,4,0,1,1.0
+Identify the Hierarchical Structure,o1,5,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,1,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,2,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,3,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,4,0,1,1.0
+Identify the Hierarchical Structure,o1-mini,5,0,1,1.0
+Make Comparisons,gpt-4o,1,1,12,0.9230769230769231
+Make Comparisons,gpt-4o,2,4,9,0.6923076923076923
+Make Comparisons,gpt-4o,3,6,7,0.5384615384615384
+Make Comparisons,gpt-4o,4,1,12,0.9230769230769231
+Make Comparisons,gpt-4o,5,2,11,0.8461538461538461
+Make Comparisons,gpt-4o-mini,1,3,10,0.7692307692307693
+Make Comparisons,gpt-4o-mini,2,2,11,0.8461538461538461
+Make Comparisons,gpt-4o-mini,3,3,10,0.7692307692307693
+Make Comparisons,gpt-4o-mini,4,3,10,0.7692307692307693
+Make Comparisons,gpt-4o-mini,5,0,13,1.0
+Make Comparisons,o1,1,1,12,0.9230769230769231
+Make Comparisons,o1,2,1,12,0.9230769230769231
+Make Comparisons,o1,3,0,13,1.0
+Make Comparisons,o1,4,1,12,0.9230769230769231
+Make Comparisons,o1,5,1,12,0.9230769230769231
+Make Comparisons,o1-mini,1,1,12,0.9230769230769231
+Make Comparisons,o1-mini,2,1,12,0.9230769230769231
+Make Comparisons,o1-mini,3,1,12,0.9230769230769231
+Make Comparisons,o1-mini,4,1,12,0.9230769230769231
+Make Comparisons,o1-mini,5,1,12,0.9230769230769231
+Retrieve Value,gpt-4o,1,1,12,0.9230769230769231
+Retrieve Value,gpt-4o,2,0,13,1.0
+Retrieve Value,gpt-4o,3,0,13,1.0
+Retrieve Value,gpt-4o,4,0,13,1.0
+Retrieve Value,gpt-4o,5,0,13,1.0
+Retrieve Value,gpt-4o-mini,1,3,10,0.7692307692307693
+Retrieve Value,gpt-4o-mini,2,1,12,0.9230769230769231
+Retrieve Value,gpt-4o-mini,3,1,12,0.9230769230769231
+Retrieve Value,gpt-4o-mini,4,0,13,1.0
+Retrieve Value,gpt-4o-mini,5,1,12,0.9230769230769231
+Retrieve Value,o1,1,1,12,0.9230769230769231
+Retrieve Value,o1,2,2,11,0.8461538461538461
+Retrieve Value,o1,3,1,12,0.9230769230769231
+Retrieve Value,o1,4,0,13,1.0
+Retrieve Value,o1,5,0,13,1.0
+Retrieve Value,o1-mini,1,1,12,0.9230769230769231
+Retrieve Value,o1-mini,2,1,12,0.9230769230769231
+Retrieve Value,o1-mini,3,1,12,0.9230769230769231
+Retrieve Value,o1-mini,4,1,12,0.9230769230769231
+Retrieve Value,o1-mini,5,1,12,0.9230769230769231

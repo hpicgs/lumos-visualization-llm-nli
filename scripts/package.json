@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "datasets": "node ./eurovis/init_datasets.js",
-    "tests": "node ./eurovis/init_tests.js",
-    "usecase": "node ./eurovis/init_use_cases.js",
-    "runtests": "node ./eurovis/run_tests.js",
-    "extract": "node ./eurovis/extract_tests.js"
+    "datasets": "node ./vis/init_datasets.js",
+    "tests": "node ./vis/init_tests.js",
+    "usecase": "node ./vis/init_use_cases.js",
+    "runtests": "node ./vis/run_tests.js",
+    "extract": "node ./vis/extract_tests.js"
   },
   "type": "commonjs",
   "keywords": [],
