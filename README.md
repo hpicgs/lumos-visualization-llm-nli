@@ -24,8 +24,3 @@ If you want to run tests on your own:
 2. `npm run tests` to import tests
 3. `npm run runtests` to run ALL tests. This may require a high balance on your OpenAI account. Alternatively you can execute single tests in the UI *Tests* section
 4. `npm run extract` to extract all tests / test results to a json file
-
-
-# Notes
-When you interact with the chat, the message thread is persisted in the OpenAI backend, but not yet in the Lumos system. This means if you re-open the frontend, there is a blank chat window. But behind the scenes there is still your old messages on OpenAI. So the LLM might return confusing information, like control information containing a different color scheme from a previous session.
-For a fresh thread, you need to remove the LLM and the related prompt via API calls.
