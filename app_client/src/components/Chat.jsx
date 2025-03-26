@@ -1,6 +1,79 @@
 import { createRef, useEffect, useState } from 'react';
 import Markdown from 'react-markdown'
+import remarkBreaks from "remark-breaks";
 import SyntaxHighlighter from 'react-syntax-highlighter';
+
+function LoadingMessage() {
+    const key = Number.MAX_SAFE_INTEGER
+
+    return (
+        <li key={key} className="flex justify-start">
+            <div>
+                <div className="pb-2 text-sm text-slate-500">assistant</div>
+                <div
+                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white"
+                    role="status">
+                    <span
+                        className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
+                </div>
+            </div>
+        </li >
+    )
+}
+
+function Message(msg, isFirst) {
+    const messageOrientation = msg.from === "user" ?
+        "justify-end" : "justify-start";
+    const messageStyle = msg.from === "user" ?
+        "bg-white rounded-b-xl rounded-tl-xl" : "bg-sky-500 text-white rounded-xl";
+
+    return (
+        <li key={msg._id} className={`flex ${messageOrientation}`}>
+            <div className="flex flex-col">
+                {isFirst && (
+                    <div className={`pb-2 text-sm text-slate-500 flex ${messageOrientation}`}>
+                        {msg.from}
+                    </div>
+                )}
+                {msg.type === "code" ? (
+                    <SyntaxHighlighter className="p-2 rounded-xl" language="python" showLineNumbers>
+                        {msg.content}
+                    </SyntaxHighlighter>
+                ) : (
+                    <div className={`p-2 text-base ${messageStyle}`}>
+                        <Markdown remarkPlugins={[remarkBreaks]}>{msg.content}</Markdown>
+                    </div>
+                )}
+            </div>
+        </li>
+    );
+}
+
+export function MessageList({ messages, isAssistantBusy = false }) {
+    const messagesEndRef = createRef()
+
+    function scrollToBottom() {
+        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        scrollToBottom()
+    }, [messages]);
+
+    return (
+        <div className="flex-grow overflow-hidden p-3">
+            <ul className="overflow-y-auto h-full space-y-2">
+                {messages.map((msg, i, allMsg) => {
+                    var isFirst = true;
+                    if (i > 0) { isFirst = allMsg[i - 1].from !== msg.from }
+                    return Message(msg, isFirst)
+                })}
+                {isAssistantBusy && <LoadingMessage />}
+                <div ref={messagesEndRef} />
+            </ul>
+        </div>
+    )
+}
 
 function ModelSelection({ llms, defaultLlm, onChangeLlm, dialogues, onChangeDialog, onCreateDialog }) {
     return (
@@ -51,76 +124,11 @@ function ModelSelection({ llms, defaultLlm, onChangeLlm, dialogues, onChangeDial
     );
 }
 
-function LoadingMessage() {
-    const key = Number.MAX_SAFE_INTEGER
-
-    return (
-        <li key={key} className="flex justify-start">
-            <div>
-                <div className="pb-2 text-sm text-slate-500">assistant</div>
-                <div
-                    className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white"
-                    role="status">
-                    <span
-                        className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
-                </div>
-            </div>
-        </li >
-    )
-}
-
-function Message(msg, isFirst) {
-    const messageOrientation = msg.from === "user" ?
-        "justify-end" : "justify-start";
-    const messageStyle = msg.from === "user" ?
-        "bg-white rounded-b-xl rounded-tl-xl" : "bg-sky-500 text-white rounded-xl";
-    return (
-
-        <li key={msg._id} className={`flex ${messageOrientation}`}>
-            <div>
-                {isFirst && <div className="pb-2 text-sm text-slate-500">{msg.from}</div>}
-                {(msg.type && msg.type === "code") ? (
-                    <SyntaxHighlighter className={"p-2 rounded-xl"} language='python' showLineNumbers>{msg.content}</SyntaxHighlighter>
-                ) : (
-                    <div className={`p-2 text-base ${messageStyle}`}>
-                        <Markdown>{msg.content}</Markdown>
-                    </div>
-                )}
-            </div>
-        </li>
-    )
-}
-
-export default function Chat({
-    messages,
-    onSendMessage,
-    isAssistantBusy,
-    llms,
-    defaultLlm,
-    onChangeLlm,
-    dialogues,
-    onChangeDialog,
-    onCreateDialog
-}) {
+export function ExpandableModelSelection({ llms, dialogues, defaultLlm, onChangeLlm, onChangeDialog, onCreateDialog }) {
     const [isChatSettingExpanded, setIsChatSettingExpanded] = useState(false);
-    const messagesEndRef = createRef()
-
-    function scrollToBottom() {
-        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
-    }
-
-    function handleSubmit(event) {
-        event.preventDefault();
-        onSendMessage(event.target.elements.userMessage.value);
-        event.target.elements.userMessage.value = "";
-    }
-
-    useEffect(() => {
-        scrollToBottom()
-    }, [messages]);
 
     return (
-        <div className="flex flex-col h-screen pb-2 bg-indigo-50/50">
+        <>
             {isChatSettingExpanded && (
                 <div className="p-2">
                     <ModelSelection
@@ -145,35 +153,6 @@ export default function Chat({
                     </svg>)
                 }
             </div>
-
-            <div className="flex-grow overflow-hidden p-3">
-                <ul className="overflow-y-auto h-full space-y-2">
-                    {messages.map((msg, i, allMsg) => {
-                        var isFirst = true;
-                        if (i > 0) { isFirst = allMsg[i - 1].from !== msg.from }
-                        return Message(msg, isFirst)
-                    })}
-                    {isAssistantBusy && <LoadingMessage />}
-                    <div ref={messagesEndRef} />
-                </ul>
-            </div>
-
-            <div className="mt-2 px-3">
-                <form autoComplete="off" onSubmit={handleSubmit} className="flex">
-                    <input
-                        type="text"
-                        name="userMessage"
-                        autoComplete="off"
-                        disabled={isAssistantBusy || !llms.length || !dialogues.length}
-                        className="flex-grow p-2 border rounded-l-lg focus:outline-none focus:ring focus:ring-indigo-300 disabled:bg-gray-100"
-                        placeholder={isAssistantBusy ? "..." : "Type a message..."}
-                    />
-                    <button
-                        type="submit"
-                        disabled={isAssistantBusy || !llms.length || !dialogues.length}
-                        className="p-2 bg-indigo-500 text-white border rounded-none rounded-r-lg hover:bg-indigo-600 disabled:bg-indigo-200">Send</button>
-                </form>
-            </div>
-        </div>
-    )
+        </>
+    );
 }

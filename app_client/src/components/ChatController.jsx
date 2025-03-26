@@ -1,4 +1,4 @@
-import Chat from "./Chat"
+import { ExpandableModelSelection, MessageList } from "./Chat"
 import { useState, useEffect } from "react"
 
 let nextMessageId = 0;
@@ -12,10 +12,10 @@ export default function ChatController({ defaultLLM, onChangeNli }) {
     //     { _id: "3", from: "assistant", type: "code", content: "import pandas as pd" }
     // ]
     const [llms, setLlms] = useState([]);
-    const [activeLlm, setActiveLlm] = useState();
     const [dialogues, setDialogues] = useState([]);
+    const [activeLlm, setActiveLlm] = useState();
     const [activeDialog, setActiveDialog] = useState();
-    const [isAssistantBusy, setIsAssistantBusy] = useState(false);
+    const [isAssistantBusy, setIsAssistantBusy] = useState(true);
     const [messages, setMessages] = useState([]);
 
 
@@ -57,7 +57,23 @@ export default function ChatController({ defaultLLM, onChangeNli }) {
             })
             .then((dialogues) => {
                 setDialogues(dialogues);
-                setActiveDialog(dialogues[0])
+                setActiveDialog(dialogues[0]);
+                fetchDialogMessages(llmId, dialogues[0]._id)
+            })
+            .catch((err) => console.log(err));
+    }
+
+    async function fetchDialogMessages(llmId, dialogId) {
+        fetch(`http://localhost:3000/api/llms/${llmId}/dialogues/${dialogId}/messages`)
+            .then((response) => {
+                if (!response.ok) {
+                    return Promise.reject(response.statusText);
+                }
+                return response.json();
+            })
+            .then((messages) => {
+                setMessages(messages);
+                setIsAssistantBusy(false);
             })
             .catch((err) => console.log(err));
     }
@@ -102,7 +118,11 @@ export default function ChatController({ defaultLLM, onChangeNli }) {
         setMessages((prev) => [...prev, ..._messages])
     }
 
-    function onSendMessage(message) {
+    function onSendMessage(event) {
+        event.preventDefault();
+        const message = event.target.elements.userMessage.value;
+        event.target.elements.userMessage.value = "";
+
         setIsAssistantBusy(true);
         setMessages((prev) => [...prev, {
             _id: nextMessageId++, from: "user", content: message
@@ -128,16 +148,35 @@ export default function ChatController({ defaultLLM, onChangeNli }) {
             .catch((err) => console.log(err));
     }
     return (
-        <>
-            <Chat messages={messages}
-                onSendMessage={onSendMessage}
-                isAssistantBusy={isAssistantBusy}
+        <div className="flex flex-col h-screen pb-2 bg-indigo-50/50">
+            <ExpandableModelSelection
                 llms={llms}
+                dialogues={dialogues}
                 {...(activeLlm && { defaultLlm: activeLlm._id })}
                 onChangeLlm={onChangeLlm}
-                dialogues={dialogues}
                 onChangeDialog={onChangeDialog}
                 onCreateDialog={onCreateDialog} />
-        </>
+
+            <MessageList
+                messages={messages}
+                isAssistantBusy={isAssistantBusy} />
+
+            <div className="mt-2 px-3">
+                <form autoComplete="off" onSubmit={onSendMessage} className="flex">
+                    <input
+                        type="text"
+                        name="userMessage"
+                        autoComplete="off"
+                        disabled={isAssistantBusy || !llms.length || !dialogues.length}
+                        className="flex-grow p-2 border rounded-l-lg focus:outline-none focus:ring focus:ring-indigo-300 disabled:bg-gray-100"
+                        placeholder={isAssistantBusy ? "..." : "Type a message..."}
+                    />
+                    <button
+                        type="submit"
+                        disabled={isAssistantBusy || !llms.length || !dialogues.length}
+                        className="p-2 bg-indigo-500 text-white border rounded-none rounded-r-lg hover:bg-indigo-600 disabled:bg-indigo-200">Send</button>
+                </form>
+            </div>
+        </div>
     )
 }

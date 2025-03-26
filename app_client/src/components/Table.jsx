@@ -13,7 +13,7 @@ export default function Table({ data, columns, renderers = {} }) {
             </thead>
             <tbody>
                 {data.map((row, rowIndex) => (
-                    <tr key={rowIndex} className={`${rowIndex % 2 === 0 ? "bg-white" : "bg-indigo-50"} hover:bg-indigo-200`}>
+                    <tr key={row._id} className={`${rowIndex % 2 === 0 ? "bg-white" : "bg-indigo-50"} hover:bg-indigo-200`}>
                         {columns.map((col) => {
                             const Renderer = renderers[col.accessor];
                             return (

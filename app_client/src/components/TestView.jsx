@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Dialog, DialogPanel, DialogBackdrop } from '@headlessui/react'
-import Chat from "./Chat";
+import { MessageList } from "./Chat";
 import Table from "./Table";
 
 const SelectableButtonGroup = ({ title = "", options = [], onChange }) => {
@@ -175,8 +175,8 @@ const ShowChatHistory = ({ value, row }) => {
                 <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
                     <div className="flex min-h-full items-center justify-center p-4">
                         <DialogPanel
-                            className="w-full max-w-md rounded-xl bg-white p-6 backdrop-blur-3xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0">
-                            <Chat messages={messages} llms={[]} />
+                            className="w-full max-w-4xl rounded-xl bg-indigo-50 p-6 backdrop-blur-3xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0">
+                            <MessageList messages={messages} />
                         </DialogPanel>
                     </div>
                 </div>
@@ -196,6 +196,7 @@ export default function TestView() {
         { header: "Model", accessor: "model" },
         { header: "Question Item", accessor: "question_item" },
         { header: "Task", accessor: "task" },
+        { header: "Visual", accessor: "visual" },
         { header: "Question", accessor: "question" },
         { header: "Answer", accessor: "answer" },
         { header: "Dataset", accessor: "dataset" },

@@ -1,35 +1,30 @@
 import { useEffect, useState } from "react";
 import * as d3 from "d3";
 import ChatController from "./ChatController";
-import GeomCandlestick from "./chart/GeomCandlestick";
+import GeomPoint from "./chart/GeomPoint"
 import Papa from 'papaparse'
 
-export default function Candlestick() {
+export default function BubbleChart() {
     const [dataset, setDataset] = useState();
     const [highlight, setHighlight] = useState();
     const chartDimensions = {
-        width: 950,
+        width: 700,
         height: 700,
-        marginLeft: 45,
+        marginLeft: 60,
         marginRight: 30,
         marginBottom: 50,
     }
     const [chartConfig, setChartConfig] = useState({
-        x: "Date",
-        open: "Open",
-        high: "High",
-        low: "Low",
-        close: "Close",
-        xScaleType: d3.scaleBand,
-        xTickFormat: d3.timeFormat("%V"),
-        yTickFormat: (value) => `$${value}`,
-        xLabel: "Calendar Week",
-        fill: ["green", "red"]
+        x: "NumberofStations",
+        y: "Length",
+        size: "Ridership",
+        // xLabel: "Number of Stations",
+        // yLabel: "Total System Length (Km)"
     })
 
     useEffect(() => {
         async function fetchDataset() {
-            const fileResponse = await fetch("http://localhost:3000/api/files?name=Volkswagen_Candlestick.csv")
+            const fileResponse = await fetch("http://localhost:3000/api/files?name=BubbleChart.csv")
             const file = await fileResponse.json();
 
             const response = await fetch(`http://localhost:3000/api/files/${file[0]._id}`)
@@ -38,12 +33,6 @@ export default function Candlestick() {
                 header: true,
                 skipEmptyLines: true,
                 dynamicTyping: true,
-                transform: (value, field) => {
-                    if (field === "Date") {
-                        return d3.timeParse("%m/%d/%Y")(value)
-                    }
-                    return value;
-                },
                 complete: function (results) {
                     setDataset(results.data);
                     setHighlight(Array(results.data.length).fill(true))
@@ -60,26 +49,38 @@ export default function Candlestick() {
             const mask = Array(dataset.length).fill(false);
             config.highlight.map(index => { mask[index] = true });
             setHighlight(mask);
-        } else {
+        } else if (config.highlight && config.highlight.length === 0) {
             setHighlight(Array(dataset.length).fill(true))
         }
-        if (config.fill) {
-            setChartConfig(prev => { return { ...prev, fill: config.fill } })
+
+        const changes = {};
+        if (config.x) {
+            changes["x"] = config.x;
         }
+        if (config.y) {
+            changes["y"] = config.y;
+        }
+        if (config.size) {
+            changes["size"] = config.size;
+        }
+        if (config.fill) {
+            changes["fill"] = config.fill;
+        }
+        setChartConfig(prev => { return { ...prev, ...changes } })
     }
 
     return (
         <>
             <div className="flex w-full h-full pl-1">
-            {/* Chat Component */}
+                {/* Chat Component */}
                 <div className="w-2/6 h-screen">
                     <ChatController
-                        defaultLLM={"IEEE Vis Candlestick Chart"}
+                        defaultLLM={"IEEE Vis Bubble Chart Example"}
                         onChangeNli={onChangeNli} />
                 </div>
                 {/* Vis Component */}
                 <div className="w-full bg-gray-50 flex items-center pl-2">
-                    {dataset && <GeomCandlestick
+                    {dataset && <GeomPoint
                         dimensions={chartDimensions}
                         dataset={dataset}
                         highlight={highlight}

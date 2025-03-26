@@ -3,7 +3,7 @@ import { useMemo } from "react"
 
 const niceNumberOfTicks = (range) => {
     const length = range[1] - range[0]
-    const pixelsPerTick = 30
+    const pixelsPerTick = 40
     return Math.max(
         1,
         Math.floor(
@@ -12,7 +12,7 @@ const niceNumberOfTicks = (range) => {
     );
 }
 
-const scaleTicks = (scale) => {
+const scaleTicks = (scale, ticks) => {
     const domain = scale.domain();
     const range = scale.range();
 
@@ -25,7 +25,7 @@ const scaleTicks = (scale) => {
     }
     if (typeof scale.ticks === "function") {
         // scaleLinear or scaleTime
-        const numberOfTicksTarget = niceNumberOfTicks(range);
+        const numberOfTicksTarget = ticks ? ticks : niceNumberOfTicks(range);
 
         return scale.ticks(numberOfTicksTarget)
             .map(value => ({
@@ -37,11 +37,11 @@ const scaleTicks = (scale) => {
     throw Error("scale not implemented")
 }
 
-export function AxisLeft({ scale, formatter, dimensions, gridLines = false }) {
+export function AxisLeft({ scale, label, formatter, dimensions, nTicks, gridLines = false }) {
     const domain = scale.domain();
     const range = scale.range();
 
-    const ticks = useMemo(() => scaleTicks(scale),
+    const ticks = useMemo(() => scaleTicks(scale, nTicks),
         [
             domain.join("-"),
             range.join("-")
@@ -84,15 +84,27 @@ export function AxisLeft({ scale, formatter, dimensions, gridLines = false }) {
                         strokeOpacity={.2} />}
                 </g>
             ))}
+
+            {label && <text
+                x={-dimensions.marginLeft + 10}
+                y={dimensions.boundedHeight / 2}
+                textAnchor="middle"
+                style={{
+                    transformBox: "fill-box",
+                    transformOrigin: "center",
+                    transform: "rotate(-90deg)"
+                }}>
+                {label}
+            </text>}
         </svg>
     )
 }
 
-export function AxisBottom({ scale, label, formatter, dimensions, gridLines = false }) {
+export function AxisBottom({ scale, label, formatter, dimensions, nTicks, gridLines = false }) {
     const domain = scale.domain();
     const range = scale.range();
 
-    const ticks = useMemo(() => scaleTicks(scale),
+    const ticks = useMemo(() => scaleTicks(scale, nTicks),
         [
             domain.join("-"),
             range.join("-")
@@ -140,7 +152,7 @@ export function AxisBottom({ scale, label, formatter, dimensions, gridLines = fa
             {label && <text
                 textAnchor="end"
                 x={dimensions.boundedWidth / 2}
-                y={40}>{label}</text>}
+                y={+dimensions.marginBottom - 10}>{label}</text>}
         </svg>
     )
 }

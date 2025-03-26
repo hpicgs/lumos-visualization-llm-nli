@@ -1,5 +1,13 @@
 import { Link } from 'react-router-dom';
 
+const chartItems = [
+    { path: "/candlestick", label: "Candlestick" },
+    { path: "/linechart", label: "Line Chart" },
+    { path: "/scatterplot", label: "Scatterplot" },
+    { path: "/bubblechart", label: "Bubble Chart" },
+    { path: "/choropleth", label: "Choropleth Map" },
+]
+
 const settingItems = [
     { path: '/prompts', label: 'Prompts' },
     { path: '/llms', label: "LLM's" },
@@ -27,16 +35,18 @@ export default function Sidebar() {
                 <div className="h-full px-3 py-4 overflow-y-auto">
                     <div className="flex flex-col w-full font-medium">
 
-                        <div>
-                            <span className="select-none flex items-center px-4 py-[.775rem] cursor-pointer my-[.4rem] rounded-[.95rem]">
-                                <a
-                                    href="/candlestick"
-                                    className="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-stone-500 hover:text-dark"
-                                >
-                                    Use-Case
-                                </a>
-                            </span>
-                        </div>
+                        {chartItems.map((item, index) => (
+                            <div key={index}>
+                                <span className="select-none flex items-center px-4 py-[.775rem] cursor-pointer my-[.4rem] rounded-[.95rem]">
+                                    <Link
+                                        to={item.path}
+                                        className="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-stone-500 hover:text-dark"
+                                    >
+                                        {item.label}
+                                    </Link>
+                                </span>
+                            </div>
+                        ))}
 
                         <div className="block pt-5 pb-[.15rem]">
                             <div className="px-4 py-[.65rem]">
