@@ -36,7 +36,7 @@ function Message(msg, isFirst) {
                     </div>
                 )}
                 {msg.type === "code" ? (
-                    <SyntaxHighlighter className="p-2 rounded-xl" language="python" showLineNumbers>
+                    <SyntaxHighlighter className="p-2 rounded-xl text-left" language="python" showLineNumbers>
                         {msg.content}
                     </SyntaxHighlighter>
                 ) : (
