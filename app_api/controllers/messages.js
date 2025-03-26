@@ -13,6 +13,7 @@ function convertOpenAiMessageContent(text) {
     const internalMessage = {
         content: text,
         type: "text",
+        from: "system",
         nli: null
     };
 
@@ -41,7 +42,7 @@ function parseOpenAiMessagesToInternalMessages(messages, stop) {
     const internalMessages = [];
 
     for (const openAiMessage of openAiMessages) {
-        const openAiMessageText = openAiMessage.content[0].text.value;
+        const openAiMessageText = openAiMessage.content.find(content => content.type === "text").text.value;
 
         if (openAiMessageText === stop) {
             break;
@@ -53,14 +54,12 @@ function parseOpenAiMessagesToInternalMessages(messages, stop) {
     }
 
     const mergedInternalMessages = internalMessages.reverse().reduce((acc, message) => {
-        if (message.content === "") {
-            if (acc.length > 0) {
-                const previousMessage = acc[acc.length - 1];
-                if (previousMessage.nli) {
-                    console.log("WARNING nli overwritten")
-                }
-                acc[acc.length - 1] = { ...previousMessage, nli: message.nli };
+        if (message.content === "" && acc.length > 0) {
+            const previousMessage = acc[acc.length - 1];
+            if (previousMessage.nli) {
+                console.log("WARNING nli overwritten")
             }
+            acc[acc.length - 1] = { ...previousMessage, nli: message.nli };
         } else {
             acc.push({ ...message });
         }
@@ -88,7 +87,8 @@ function parseOpenAiToolcallToInternalMessages(runSteps) {
             internalMessages.push({
                 id: toolcall.id,
                 content: codeInput,
-                type: "code"
+                type: "code",
+                from: "system"
             })
         }
     }
@@ -160,6 +160,43 @@ const messageCreateOne = async (req, res) => {
     }
 }
 
+const messageReadOne = async (req, res) => {
+    try {
+        const dialog = await Dialog.findById(req.params.dialogId).exec();
+        const threadMessages = await OpenAIclient.beta.threads.messages.list(dialog.vendorId);
+
+        var responseMessages = [];
+        for (const threadMessage of threadMessages.data.reverse()) {
+            if (threadMessage.role === "user") {
+                for (const userMsg of threadMessage.content) {
+                    responseMessages.push({
+                        content: userMsg.text.value,
+                        type: "text",
+                        from: "user"
+                    })
+                }
+            } else {
+                const runSteps = await OpenAIclient.beta.threads.runs.steps.list(
+                    dialog.vendorId,
+                    threadMessage.run_id
+                );
+                const parsedCodeMessages = parseOpenAiToolcallToInternalMessages(runSteps);
+                const parsedTextMessages = parseOpenAiMessagesToInternalMessages({ data: [threadMessage] }, undefined);
+                const sortedMessages = mergeAndSort(runSteps, parsedTextMessages, parsedCodeMessages);
+
+                responseMessages = responseMessages.concat(sortedMessages);
+            }
+        }
+        return res
+            .status(200)
+            .json(responseMessages);
+    } catch (err) {
+        console.log(err)
+        handleError(err, res);
+    }
+}
+
 module.exports = {
-    messageCreateOne
+    messageCreateOne,
+    messageReadOne
 }

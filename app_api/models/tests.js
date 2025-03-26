@@ -10,10 +10,12 @@ const testsSchema = new Schema({
     visualization: String,
     question_item: String,
     task: String, // e.g. "find extremum"
+    visual: String, // e.g. yes / no
     question: String,
     answer: String,
     dataset: String,
     comment: String,
+    parameter: Object,
     status: {
         type: String,
         enum: ['passed', 'failed', 'pending', 'running', 'sleeping']

@@ -57,11 +57,15 @@ const testsCreateOne = async (req, res) => {
         visualization: req.body.visualization,
         question_item: req.body.question_item,
         task: req.body.task,
+        visual: req.body.visual,
         question: req.body.question,
         answer: req.body.answer,
         dataset: req.body.dataset,
         status: req.body.status === "pending" ? req.body.status : "sleeping",
-        comment: req.body.comment
+        comment: req.body.comment,
+        parameter: req.body.parameter,
+        log: req.body.log,
+        messages: req.body.messages
     };
 
     try {
@@ -109,6 +113,7 @@ const testsUpdateOne = async (req, res) => {
         visualization: req.body.visualization,
         question_item: req.body.question_item,
         task: req.body.task,
+        visual: req.body.visual,
         question: req.body.question,
         answer: req.body.answer,
         dataset: req.body.dataset,

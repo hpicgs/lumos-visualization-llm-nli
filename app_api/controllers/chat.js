@@ -76,8 +76,6 @@ const chatCreateOne = async (req, res) => {
                 }
             ]
         });
-        console.log(completion.choices)
-        console.log(completion.usage.completion_tokens_details)
         const parsedMessages = parseOpenAiMessagesToInternalMessages(completion, null);
 
         return res

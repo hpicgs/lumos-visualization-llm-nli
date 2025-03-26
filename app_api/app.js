@@ -6,7 +6,10 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
+const swaggerJsdoc = require('swagger-jsdoc');
+const swaggerUi = require('swagger-ui-express');
 require('./models/db');
+const swaggerSchemas = require('./routes/swaggerSchemas');
 
 // const indexRouter = require('./app_server/routes/index');
 const apiRouter = require('./routes/index');
@@ -18,6 +21,30 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions))
+
+
+const swaggerOptions = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'My API',
+      version: '1.0.0',
+      description: 'API documentation for My API',
+    },
+    servers: [
+      {
+        url: '/api',
+      }
+    ],
+    components: {
+      schemas: swaggerSchemas,
+    },
+  },
+  apis: ['./routes/*.js'],
+};
+
+const swaggerSpec = swaggerJsdoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'app_server', 'views'));

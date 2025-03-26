@@ -4,6 +4,9 @@ const { error, handleError } = require('../util/error')
 
 const promptReadAll = (req, res) => {
     let query = {}
+    if (req.query.name) {
+        query["name"] = req.query.name
+    }
     if (req.query.type) {
         query["type"] = req.query.type
     }

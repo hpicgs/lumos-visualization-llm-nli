@@ -53,6 +53,7 @@ const dialogCreateOne = async (req, res) => {
                 .json(dialog)
         })
         .catch((err) => {
+            console.log(err)
             handleError(err, res);
         });
 }

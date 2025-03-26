@@ -22,6 +22,8 @@ const llmReadAll = (req, res) => {
 }
 
 const llmCreateOne = (req, res) => {
+    const temperature = req.body.temperature ? req.body.temperature : 1;
+
     Prompt
         .findById(req.body.prompt)
         .exec()
@@ -34,7 +36,8 @@ const llmCreateOne = (req, res) => {
                 name: req.body.name,
                 instructions: prompt.content,
                 tools: [{ type: 'code_interpreter' }],
-                model: req.body.model // "gpt-4o"
+                model: req.body.model, // "gpt-4o",
+                temperature: parseFloat(temperature)
             });
         })
         .then((assistant) => {
@@ -44,6 +47,7 @@ const llmCreateOne = (req, res) => {
                     description: req.body.description,
                     provider: req.body.provider,
                     model: req.body.model,
+                    temperature: temperature,
                     prompt: req.body.prompt,
                     vendorId: assistant.id
                 });
@@ -54,6 +58,7 @@ const llmCreateOne = (req, res) => {
                 .json(llm);
         })
         .catch((err) => {
+            console.log(err)
             handleError(err, res);
         });
 }
@@ -103,6 +108,9 @@ const llmDeleteOne = (req, res) => {
                 .status(204)
                 .json(null);
         })
+        .catch((err) => {
+            handleError(err, res);
+        });
 }
 
 module.exports = {

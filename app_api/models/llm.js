@@ -7,6 +7,7 @@ const llmModelSchema = new Schema({
     description: String,
     provider: String,
     model: String,
+    temperature: Number,
     prompt: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Prompt'
